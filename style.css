@@ -1,0 +1,27 @@
+body{
+    line-height: 1.25;
+}
+p {
+    font-style: Georgia, serif;
+    font-size: 16px;
+    color : #303030;
+}
+
+h1 h2 {
+    letter-spacing: 2px;
+}
+
+a:link{
+    color : darkblue;
+    text-decoration: none;
+}
+
+a:hover{
+    color : cadetblue;
+    text-decoration: underline;
+}
+
+a:visited{
+    color : red;
+    text-decoration: none;
+}
