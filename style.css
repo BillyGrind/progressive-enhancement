@@ -19,6 +19,14 @@ body {
     color: #080808;
 }
 
+figure .imgfarmer{
+
+}
+
+p .textfarmer{
+    
+}
+
 .good, .bad{
     text-transform: capitalize;
 }
