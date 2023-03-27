@@ -1,15 +1,102 @@
-body{
-    line-height: 1.25;
+*{
+    margin: auto;
+
+}
+
+header > h1{
+    background-color: yellow;
+}
+
+body {
+    max-width: 90%;
+    line-height: 1.5;
+    background: -webkit-linear-gradient(90deg, rgb(70, 129, 182), rgb(127, 146, 165));
+    background: linear-gradient(90deg, rgb(70, 129, 182), rgb(127, 146, 165)); 
+    background-image: url("Yuanyang_hani_farmer.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    color: #080808;
+}
+
+.good, .bad{
+    text-transform: capitalize;
+}
+
+.bad{
+    color:red;
+}
+
+.good{
+    color:green;
+}
+
+tr:nth-child(odd){
+    background-color: lightgray;    
+}
+
+tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+blockquote{
+    max-width: 50%;
+    margin: auto;
+    font-size: 160%;
+    background-color: lightgray;
+    border-left: 3px firebrick solid;
+    padding-left: 30px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    font-style: italic;
+}
+
+p:first-of-type{
+    font-weight: bold;
+}
+
+ul li:nth-child(1){
+    background-image: url("bien.png");
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+ul li:nth-child(2){
+    background-image: url("mal.png");
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
+}
+ul li:nth-child(3){
+    background-image: url("chat.png");
+    background-repeat: no-repeat;
+    background-position: 45%;
+    padding-top: 30px;
 }
 p {
     font-style: Georgia, serif;
     font-size: 16px;
-    color : #303030;
+    color : #080808;
 }
 
-h1 h2 {
+h1 ,h2 {
     letter-spacing: 2px;
+    line-height: 1.5;
 }
+
+q{
+    display: inline;
+    font-style: italic;
+}
+
+q:before{
+    content: open-quote;
+}
+
+q::after{
+    content: close-quote;
+}
+
 
 a:link{
     color : darkblue;
@@ -21,7 +108,7 @@ a:hover{
     text-decoration: underline;
 }
 
-a:visited{
+/* a:visited{
     color : red;
     text-decoration: none;
-}
+} */
